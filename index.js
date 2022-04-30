@@ -120,7 +120,7 @@ run().catch(console.dir)
 
 
 app.get('/', (req, res) => {
-    res.send('surver running')
+    res.send('surver running!!')
 })
 app.listen(port, () => {
     console.log('listening to port', port)
